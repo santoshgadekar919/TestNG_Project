@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 26, Failures: 1, Errors: 0, Skipped: 19, Time elapsed: 325.634 s <<< FAILURE! - in TestSuite
+setUp(com.crm.qa.testcases.ContactsPageTest)  Time elapsed: 32.165 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Timed out waiting for driver server to start.
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-CARFPD6P', ip: '192.168.15.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: driver.version: ChromeDriver
+	at com.crm.qa.testcases.ContactsPageTest.setUp(ContactsPageTest.java:26)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:16438/status] to be available after 20016 ms
+	at com.crm.qa.testcases.ContactsPageTest.setUp(ContactsPageTest.java:26)
+Caused by: java.util.concurrent.TimeoutException
+	at com.crm.qa.testcases.ContactsPageTest.setUp(ContactsPageTest.java:26)
+

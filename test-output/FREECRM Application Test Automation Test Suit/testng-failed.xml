@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FREECRM Application Test Automation Test Suit]" guice-stage="DEVELOPMENT">
+  <test name="FREECRM Application Test(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.ContactsPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="exportContactTest"/>
+          <include name="selectMultipleContactsTest"/>
+          <include name="createNewContactTest"/>
+          <include name="verifyCreateLabelTest"/>
+          <include name="tearDown"/>
+          <include name="selectSingleContactsTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
+    </classes>
+  </test> <!-- FREECRM Application Test(failed) -->
+</suite> <!-- Failed suite [FREECRM Application Test Automation Test Suit] -->
